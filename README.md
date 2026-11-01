@@ -87,9 +87,7 @@ The trained model is saved in the models folder.
 uvicorn api:app --reload
 ```
 
-Open the API documentation:
 
-http://127.0.0.1:8000/docs
 
 Use the `/predict` endpoint to predict house prices.
 
@@ -101,9 +99,7 @@ Run MLflow UI:
 mlflow ui --host 127.0.0.1 --port 5000 --workers 1
 ```
 
-Open:
 
-http://127.0.0.1:5000
 
 ## 11. Model Evaluation
 The model is evaluated using:
